@@ -11,10 +11,11 @@ do
 	if_cmd="scp ifconfig.txt ${USERNAME}@${line}:${home_directory}/resilientdb/"
 	if [ "$i" -lt "$nodes" ];then
 		cmd="scp rundb ${USERNAME}@${line}:${home_directory}/resilientdb/"
-	else if [ "$i" -lt "$nodes+1" ];then
+	# else if [ "$i" -lt "expr `$nodes + 1 `" ];then
+	else
 		cmd="scp runcl ${USERNAME}@${line}:${home_directory}/resilientdb/"
-	else 
-		cmd="scp rundb ${USERNAME}@${line}:${home_directory}/resilientdb/"
+	# else 
+	# 	cmd="scp rundb ${USERNAME}@${line}:${home_directory}/resilientdb/"
 	fi
 
 	monitor="scp monitorResults.sh ${USERNAME}@${line}:${home_directory}/resilientdb/"

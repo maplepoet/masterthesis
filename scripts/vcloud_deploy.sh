@@ -8,7 +8,8 @@ RES_FILE="$3"
 count=0
 for HOSTNAME in ${HOSTS}; do
 	i=1
-	if [ $count -ge $NODE_CNT && $count -lt `expr $NODE_CNT+1`]; then
+	# if [ $count -ge $NODE_CNT ]&&[ $count -lt `expr $NODE_CNT + 1` ]; then
+	if [ $count -ge $NODE_CNT ]; then
 		i=0
 	    SCRIPT="ulimit -n 4096;./runcl -nid${count} > ${RES_FILE}${count}.out 2>&1"
 	    echo "${HOSTNAME}: runcl ${count}"

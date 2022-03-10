@@ -14,43 +14,27 @@ if [ -z $bsize ]; then
 fi
 
 SNODES=(
-	# create replication instances
-	"10.0.0.96"
-	"10.0.0.46"
-	"10.0.0.193"
-	"10.0.0.100"
-	"10.0.0.169"
-	"10.0.0.223"
-	"10.0.0.87"
-	"10.0.0.90"
+	# Frankfurt
+	"172.24.5.121"
+	"172.24.5.183"
+	"172.24.3.200"
+	"172.24.3.70"
+	# Ohio
+	"172.25.128.28"
+	"172.25.201.153"
+	"172.25.193.119"
+	"172.25.206.255"
 	# "10.0.0.20"
-	# "10.0.0.192"
-	# "10.0.0.19"
-	# "10.0.0.226"
-	# "10.0.0.218"
-	# "10.0.0.140"
-	# "10.0.0.178"
-	# "10.0.0.209"
+	# Virginia
+	"172.26.229.8"
+	"172.26.226.93"
+	"172.26.149.169"
+	"172.26.78.36"
 )
 
 CNODES=(
-	# create client instances
-	# "10.0.0.96"
-	# "10.0.0.46"
-	# "10.0.0.193"
-	# "10.0.0.100"
-	# "10.0.0.169"
-	# "10.0.0.223"
-	# "10.0.0.87"
-	# "10.0.0.90"
-	"10.0.0.20"
-	"10.0.0.192"
-	# "10.0.0.19"
-	# "10.0.0.226"
-	# "10.0.0.218"
-	# "10.0.0.140"
-	# "10.0.0.178"
-	# "10.0.0.209"
+	# California
+	"172.31.7.2"
 )
 
 rm ifconfig.txt hostnames.py
@@ -69,12 +53,6 @@ while (($count < $cli)); do
 	count=$((count + 1))
 done
 
-count=$i
-while (($count < `expr $i+16`)); do
-	echo ${SNODES[$count]} >>ifconfig.txt
-	count=$((count + 1))
-done
-
 # Building file hostnames
 #
 echo "hostip = [" >>hostnames.py
@@ -89,13 +67,6 @@ while (($count < $cli)); do
 	echo -e "\""${CNODES[$count]}"\"," >>hostnames.py
 	count=$((count + 1))
 done
-
-count=$i
-while (($count < `expr $i+16`)); do
-	echo -e "\""${SNODES[$count]}"\"," >>hostnames.py
-	count=$((count + 1))
-done
-
 echo "]" >>hostnames.py
 
 echo "hostmach = [" >>hostnames.py
@@ -110,13 +81,6 @@ while (($count < $cli)); do
 	echo "\""${CNODES[$count]}"\"," >>hostnames.py
 	count=$((count + 1))
 done
-
-count=$i
-while (($count < `expr $i+16`)); do
-	echo "\""${SNODES[$count]}"\"," >>hostnames.py
-	count=$((count + 1))
-done
-
 echo "]" >>hostnames.py
 
 # Compiling the Code
