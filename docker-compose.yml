@@ -1,0 +1,86 @@
+version: '3'
+services:
+    s1:
+        image: resilientdb/res-machine
+        container_name: s1
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s2:
+        image: resilientdb/res-machine
+        container_name: s2
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s3:
+        image: resilientdb/res-machine
+        container_name: s3
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s4:
+        image: resilientdb/res-machine
+        container_name: s4
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s5:
+        image: resilientdb/res-machine
+        container_name: s5
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s6:
+        image: resilientdb/res-machine
+        container_name: s6
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s7:
+        image: resilientdb/res-machine
+        container_name: s7
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s8:
+        image: resilientdb/res-machine
+        container_name: s8
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s9:
+        image: resilientdb/res-machine
+        container_name: s9
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s10:
+        image: resilientdb/res-machine
+        container_name: s10
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s11:
+        image: resilientdb/res-machine
+        container_name: s11
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s12:
+        image: resilientdb/res-machine
+        container_name: s12
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    s13:
+        image: resilientdb/res-machine
+        container_name: s13
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always
+    c1:
+        image: resilientdb/res-machine
+        container_name: c1
+        volumes:
+            - ./:/home/expo/resilientdb
+        restart: always

@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "*.clo": "doctex",
+        "*.toml": "toml",
+        "*.cpp": "cpp",
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "rope": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "tuple": "cpp",
+        "valarray": "cpp",
+        "variant": "cpp",
+        "*.ipp": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "string_view": "cpp"
+    }
+}

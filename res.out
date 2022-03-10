@@ -1,0 +1,122 @@
+Throughputs:
+0: 
+1: 12226
+2: 12335
+3: 12386
+4: 12383
+5: 12350
+6: 12403
+7: 12341
+8: 12378
+9: 12315
+10: 12353
+11: 12332
+12: 12239
+13: 12120
+Latencies:
+latency 13: 1.087226
+
+idle times:
+Idleness of node: 0
+Idleness of node: 1
+Worker THD 0: 4.62072
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 16.0549
+Worker THD 5: 0.00000
+Idleness of node: 2
+Worker THD 0: 6.34466
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 20.4711
+Worker THD 5: 0.00000
+Idleness of node: 3
+Worker THD 0: 6.94338
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 21.2193
+Worker THD 5: 0.00000
+Idleness of node: 4
+Worker THD 0: 6.55409
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 21.2045
+Worker THD 5: 0.00000
+Idleness of node: 5
+Worker THD 0: 8.00203
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 21.9875
+Worker THD 5: 0.00000
+Idleness of node: 6
+Worker THD 0: 3.76319
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 17.3521
+Worker THD 5: 0.00000
+Idleness of node: 7
+Worker THD 0: 1.77321
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 18.7218
+Worker THD 5: 0.00000
+Idleness of node: 8
+Worker THD 0: 8.11517
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 21.8066
+Worker THD 5: 0.00000
+Idleness of node: 9
+Worker THD 0: 8.25970
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 22.3618
+Worker THD 5: 0.00000
+Idleness of node: 10
+Worker THD 0: 5.00119
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 20.0783
+Worker THD 5: 0.00000
+Idleness of node: 11
+Worker THD 0: 5.99016
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 20.4466
+Worker THD 5: 0.00000
+Idleness of node: 12
+Worker THD 0: 7.22147
+Worker THD 1: 0.00000
+Worker THD 2: 0.00000
+Worker THD 3: 0.00000
+Worker THD 4: 21.7328
+Worker THD 5: 0.00000
+Memory:
+0: 0 MB
+1: 0 MB
+2: 0 MB
+3: 0 MB
+4: 0 MB
+5: 0 MB
+6: 0 MB
+7: 0 MB
+8: 0 MB
+9: 0 MB
+10: 0 MB
+11: 0 MB
+12: 0 MB
+13: 0 MB
+
+avg thp: 12: 12336
+avg lt : 1: 1.087
