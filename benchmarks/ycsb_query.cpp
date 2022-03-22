@@ -111,7 +111,11 @@ BaseQuery *YCSBQueryGenerator::gen_requests_zipf()
         ;
         assert(row_id < table_size);
 
+#if Shard
         req->key = row_id;
+#else
+        req->key = row_id;
+#endif
         req->value = mrand->next();
 
         rid++;
